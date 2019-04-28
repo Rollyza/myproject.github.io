@@ -1,0 +1,98 @@
+.menu a {
+	text-decoration: none;
+}
+
+.header {
+`	border: 0px;
+	background: moccasin;
+}
+
+.menu {
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-gap: 20px;
+	padding: 10px;
+}
+
+.text {
+	height: 30px;
+	font-size: 40px;
+	text-align: center;
+	font-family: magneto;
+}
+
+.menu li {
+	padding: 10px;
+	background: black;
+	text-align: center;
+	color: white;
+	list-style: none;
+	font-size: 23px;
+	font-family: broadway;
+}
+
+.menu li:hover {
+	background: lemonchiffon;
+	border: 5px black solid;
+	color: black;
+	transition: all .4s ease-out; 
+}
+.showcase {
+	height: 50vh;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 3px;
+	padding: 40px;
+	background: black;
+	text-align: center;
+	margin-bottom: 3px;
+}
+
+.text1 {
+	background: papayawhip;
+	font-size: 28px;
+	
+}
+
+.image {
+	background-image: url(../images/picme.jpg);
+	padding: 50px;
+	border: 10px beige;
+	background-repeat: no-repeat;
+	background-size: 475px;
+	background-position: center;
+}
+
+.image:hover {
+	background-image: url(../images/picme1.jpg);
+	border: 5px black solid;
+	color: black;
+	transition: all .4s ease-out; 
+}
+
+.description {
+	background: honeydew;
+	padding: 75px;
+}
+
+.text2 {
+	font-size: 56px;
+	font-family: algerian;
+}
+
+.text3 {
+	font-size: 20px;
+	font-family: cambria;
+}
+
+.footer {
+	background: black;
+	padding: 20px;
+}
+
+.text4 {
+	font-size: 20px;
+	font-family: cambria;
+	text-align: center;
+	background: white;
+}
